@@ -36,3 +36,6 @@ Após baixamos nosssos arquivo devemos linkar no html.
 
 No site do owl, podemos ver algumas configurações de demonstração. Escolhemos o modelo de aplicação que desejamos
 e podemos visualizar o setup para js e para html.
+
+No conceito da responsividade, utilizamos no documento css o "@media screen" que é um função que introduz
+condições para serem utilizadas na formatação do css quando a tela/display se encontra dentro de uma faixa.
