@@ -1,0 +1,38 @@
+É sempre interessante criar um padrão de organização para facilitar como um todo
+o fluxo de desenvolvimento de um projeto.
+O primeiro passo é criar diretórios onde os arquivos serão guardados a fim de
+evitar confusão na hora de encontrá-los para fazer referência ou inserí-los no
+no projeto. Por exemplo, diretórios para arquivos css, js e img.
+Ao criar um site do zero, inicialmente percebemos que o navegador atribui um valor padrão para
+o padding de um elemento como a nossa tag h2. Porém este valor poder ser relativamente
+diferente entre navegadores. Assim, uma das funções do css é definir regras e padrão de formatação
+de elementos no html.
+Nesse contexto uma forma de remover este valor padrão é usar o asterisco (*)
+Após é interessante definir o padrão de cores que serão utilizadas no projeto. A forma mais eficiente
+de ser fazer é utilizando um variável.
+
+Nota: é importante saber que existem algumas tags semânticas, isto é, elas são utilizadas
+automaticamente pelo html, mas em alguns casos o seu uso declarado agrega benefícios, por exemplo, a
+tag main. O uso dela tem impacto no SEO.
+
+Pegar icones no font awesome. Basta procurar na plataforma e ao selecionar o objeto, o link para inserir
+no html é fornecido. Para que seja possível usá-lo, deve-se usar o script fornecido pelo font awesome.
+
+Classe wrapper é uma tipo de container que é utilizado para envelopar os elementos, com o objetivo de
+aplicar regras de formatação aos elementos dentro da classe.
+
+Uso do Jquery está sendo substituido por outras bibliotecas. Aqui usamos o owl carousel.
+baixamos o arquivo e criamos diretórios "owl" nos diretórios do css e do js.
+acessamos o owlCarousel > docs > assets > vendors > e recortamos o arquivo minificado "jquery.min" e colamos
+no diretório owl na plasta js do nosso projeto.
+O segundo arquivo é o proprio owl: owlCarousel > docs > assets > owlcarousel > e copiamos o arquivo minificado
+"owlcarousel.min" para o mesmo diretório onde colocamos nosso arquivo jquery, na pasta do js do nosso
+projeto.
+acessamos o owlCarousel > docs > assets > vendors > e recortamos o arquivo minificado "jquery.min" e colamos
+É necessário pegar os arquivo dos css, então: owlcarousel > dist > assets > copiamos os arquivos minificados
+"owlcarousel.min e o owl.theme.default.min" para o diretório owl no diretório css do nosso projeto. Aos copiarmos
+todos os arquivos podemos excluir o diretório owlCarousel que fizemos download.
+Após baixamos nosssos arquivo devemos linkar no html.
+
+No site do owl, podemos ver algumas configurações de demonstração. Escolhemos o modelo de aplicação que desejamos
+e podemos visualizar o setup para js e para html.
