@@ -1,0 +1,59 @@
+html {
+    scroll-behavior: smooth; /*comando para fazer os links rolarem pela pag de forma suave*/
+}
+
+.foto-perfil{
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.corPrimaria {
+    background-color: #18bc9c;
+}
+
+.corSecundaria {
+    background-color: #2c3e50;
+}
+
+p{
+    font-family:  Helvetica, Arial, sans-serif;
+    color: black !important;
+}
+
+.icones {
+    padding-left: 5px;
+}
+
+.titulosBrancos {
+    text-decoration: underline;
+    text-underline-position: below;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+
+.titulosVerdes {
+    text-decoration: underline;
+    text-underline-position: below;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #18bc9c;
+}
+
+.textoBranco {
+    color: white !important;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+}
+
+.textoFooter{
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <!--scripts bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<!--script do font awesome-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+<!--ideal seria criar um arquivo css independe-->
+<link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+    <!--barra de navegação-->
+    <nav class="navbar navbar-expand-lg navbar-light corSecundaria">
+        <a class="navbar-brand textoBranco" href="#">Silmar Silva</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto"> 
+           
+          </ul>
+          <ul class="navbar-nav"> <!--itens do menu-->
+            <li class="nav-item">
+                <a class="nav-link textoBranco" href="#projetos">Projetos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link textoBranco" href="#sobre-mim">Sobre mim</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link textoBranco" href="#artigos">Artigos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link textoBranco" href="#contato">Contato</a>
+              </li>
+          </ul>
+         
+        </div>
+      </nav>
+      <!--Apresentação/intro-->
+      <section class="jumbotron text-center corPrimaria">
+        <div class="container">
+            <img class="foto-perfil" src="/img/silmar.jpeg" alt=""> <!--usar uma foto quadrada para ficar legal quando for arredondada-->
+          <h1 class="jumbotron-heading textoBranco">Silmar Silva</h1>
+          <p class="lead textoBranco">Professor de Ciências naturais que tem como missão compartilhar conhecimento</p>
+          <p>
+            <a href="#" class="btn btn-dark my-2">Contato</a>
+          </p>
+          <!--icones do awesome sem baixar código, apenas com o nome. Aqui para fazer os icones clicaveis basta usar a tag <a> e inserir o link das resdes sociais-->
+          <a href="https://www.linkedin.com/in/silmar-silva-418a9474"><i class="fab fa-linkedin textoBranco"></i></a>
+          <a href="https://github.com/SilmarSilva"><i class=" icones fab fa-github textoBranco"></i></a>
+          <a href="https://www.instagram.com/silmarlsilva/"><i class=" icones fab fa-instagram textoBranco"></i></a>
+        </div>
+      </section>
+      <!--os cards-->
+      <div class="album py-5 bg-light" id="projetos">
+        <div class="container">
+            <h2 class="jumbotron-heading text-center titulosVerdes">Projetos</h2>
+          <div class="row">
+            <div class="col-md-6"> <!--o 4 indica o quanto vai ser utilizado da largura da pag, logo a pag terá 3 colunas, vamos usar o 6 para ter 2 colunas ou 2 cards por pag-->
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22208%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20208%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17473486866%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A11pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17473486866%22%3E%3Crect%20width%3D%22208%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2265.984375%22%20y%3D%22117.3%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
+                <div class="card-body">
+                  <p class="card-text">Descrição do projeto</p>
+                  <ul>
+                    <li>CSS</li>
+                    <li>HTML</li>
+                    <li>JavaScript</li>
+                </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <!--basta colocar o link de onde está hospedado o projeto e o link do github onde est[a o código-->
+                      <button type="button" class="btn btn-sm btn-outline-success">Ver Projeto</button>
+                      <button type="button" class="btn btn-sm btn-outline-primary">Código</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6"> <!--o 4 indica o quanto vai ser utilizado da largura da pag, logo a pag terá 3 colunas, vamos usar o 6 para ter 2 colunas ou 2 cards por pag-->
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22208%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20208%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17473486866%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A11pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17473486866%22%3E%3Crect%20width%3D%22208%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2265.984375%22%20y%3D%22117.3%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
+                  <div class="card-body">
+                    <p class="card-text">Descrição do projeto</p>
+                    <ul>
+                        <li>CSS</li>
+                        <li>HTML</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-success">Ver Projeto</button>
+                        <button type="button" class="btn btn-sm btn-outline-primary">Código</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <!--Sobre mim-->
+      <section class="jumbotron text-center corPrimaria" id="sobre-mim">
+          <div class="conteiner">
+              <h2 class="jumbotron-heading titulosBrancos">Sobre mim</h2>
+              <p class="lead textoBranco">Sou Silmar Licenciado em Ciências Biológicas e Mestre em Botânica. Atuo em pesquisa principalmente voltada para citogenética
+                  análise bioinformática. Sinto prazer em compartilhar conhecimento e ajudar no crescimento intelectual. Atualmente estou
+                  também me dedicando ao universo da TI, estudando principalmente JavaScript.
+              </p>
+          </div>
+      </section>
+      <!--Artigos-->
+      <section class="jumbotron text-center titulosVerdes" id="artigos">
+          <div class="conteiner">
+              <h2 class="jumbotron-heading text-center">
+                  Artigos
+              </h2>
+          </div>
+      </section>
+      <!--contatos-->
+      <section class="corPrimaria" id="contato">
+          <div class="container-fluid">
+              <h3 class="text-center titulosBrancos">Disponível para oportunidades</h3>
+              <a href="mailto:silmarlsilva@outlook.com"><h4 style="padding-bottom: 20px; margin-bottom: 0px;" class="text-center">silmarlsilva@outlook.com</h4></a>
+
+          </div>
+      </section>
+      <!--footer-->
+      <footer class="class text-center corSecundaria textoFooter">
+         <p class="textoBranco">Copyright 2020 by Silmar Silva</p> 
+        </footer>
+</body>
+</html>
